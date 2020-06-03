@@ -3,6 +3,9 @@
 
 Image erstellen
 
+
+Datei SSH in boot directory
+
 Beschreibung hinzufügen 
 
 Datei mit namen "beschreibung.txt" in boot schreiben - zwecks Wiedererkennung falls Image erkannt oder SD Card in Notbook gelesen werden soll
