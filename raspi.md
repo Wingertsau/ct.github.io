@@ -35,10 +35,12 @@ Rpi-monitor work around
 sudo nano /etc/init.d/rpimonitor
 
 To add the delay to the startup script, edit rpimonitor (sudo nano /etc/init.d/rpimonitor). Add the instruction "sleep 10" immediately before the "start" instruction in the case structure at tne end of the program. This will be immediately after line 93 in the current release. After editing, the section should look like this:
+
     case "$1" in
         start)
             sleep 10
             start
-		
+
+.
 	
 <https://github.com/XavierBerger/RPi-Monitor/issues/287>
