@@ -44,3 +44,17 @@ Add the instruction "sleep 10" immediately before the "start" instruction in the
 Save the edited file and RPi-monitor should start without a problem on reboots and restarts.
 	
 <https://github.com/XavierBerger/RPi-Monitor/issues/287>
+
+
+## Pip installieren (lite)
+
+    sudo apt install python3-pip
+    
+<https://www.raspberrypi.org/documentation/linux/software/python.md>
+
+## mqtt python client 
+
+    pip install paho-mqtt
+    
+
+
