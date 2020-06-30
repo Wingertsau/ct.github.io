@@ -30,6 +30,12 @@ Basis software
 RPI-Monitor
 <https://xavierberger.github.io/RPi-Monitor-docs/11_installation.html>
 
+restart rpi-monitor
+
+    sudo  service rpimonitor restart
+    
+
+
 Rpi-monitor work around
 
     sudo nano /etc/init.d/rpimonitor
