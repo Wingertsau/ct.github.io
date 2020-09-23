@@ -81,3 +81,22 @@ Userpwd anlegen
      
      
 <https://www.elektronik-kompendium.de/sites/raspberry-pi/2007071.htm>
+
+
+## rpi-clone - imagingin auf SD karte
+
+
+    git clone https://github.com/billw2/rpi-clone.git 
+    cd rpi-clone
+    sudo cp rpi-clone rpi-clone-setup /usr/local/sbin
+
+testen
+
+    sudo rpi-clone-setup -t testhostname
+
+Typical two partition clones - SD card or USB disk to USB disk:
+    
+    rpi-clone sda
+
+
+<https://github.com/billw2/rpi-clone>
