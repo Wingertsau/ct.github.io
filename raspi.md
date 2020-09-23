@@ -63,4 +63,21 @@ Save the edited file and RPi-monitor should start without a problem on reboots a
     pip install paho-mqtt
     
 
+## smb installieren
 
+    sudo apt-get update
+    sudo apt-get install samba samba-common smbclient
+    
+    
+    
+    
+Dann prüfen wir, ob Samba läuft.
+
+     sudo service smbd status
+     
+Userpwd anlegen
+
+     sudo smbpasswd -a pi
+     
+     
+<https://www.elektronik-kompendium.de/sites/raspberry-pi/2007071.htm>
