@@ -100,3 +100,31 @@ Typical two partition clones - SD card or USB disk to USB disk:
 
 
 <https://github.com/billw2/rpi-clone>
+
+
+## r-backup - pi ordener sichern
+
+    nano r-backup.sh
+
+Input: 
+    #!/bin/bash
+    rsync -Pav  /home/pi /mnt/backup/backup/PhotonPi-55
+    
+backup pfad anpassen anpassen 
+   
+    chmod +x r-backup.sh
+    
+kopieren nach root:
+    sudo cp r-backup.sh /root/
+    
+
+eintragung in root crontab
+    sudo crontab -e
+    
+eitragen
+    0 1 * * * /root/r-backup.sh
+    
+    
+    
+
+    
