@@ -126,5 +126,8 @@ eitragen
     
     
     
+## Zero ethernet
+
+<https://tutorials-raspberrypi.de/raspberry-pi-zero-ethernet-verbindung-herstellen-enc28j60/>
 
     
