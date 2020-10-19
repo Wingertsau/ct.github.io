@@ -52,6 +52,14 @@ Save the edited file and RPi-monitor should start without a problem on reboots a
 <https://github.com/XavierBerger/RPi-Monitor/issues/287>
 
 
+
+Edit network.conf
+
+    sudo nano /etc/rpimonitor/template/network.conf
+
+
+
+
 ## Pip installieren (lite)
 
     sudo apt install python3-pip
