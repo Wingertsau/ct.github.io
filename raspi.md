@@ -58,6 +58,19 @@ Edit network.conf
     sudo nano /etc/rpimonitor/template/network.conf
 
 
+Edit version.conf
+
+    sudo nano /etc/rpimonitor/template/version.conf
+
+add
+
+    static.5.name=model
+    static.5.source=/proc/device-tree/model
+    static.5.regexp=(.*)
+    static.5.postprocess=
+
+    web.status.1.content.1.line.6='Model: <b>' + data.model + '</b>'
+
 
 
 ## Pip installieren (lite)
