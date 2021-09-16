@@ -87,7 +87,7 @@ einfügen:
     web.addons.2.title=ShelleInABox
     web.addons.2.addons=custom
     web.addons.2.showtitle=false
-    web.addons.2.url=https://raspberrypi.local:4200/
+    web.addons.2.url=https://<IP Adresse >:4200/.  Achtung IP einsetzen
     web.addons.2.allowupdate=false
 
 ## shellinabox
