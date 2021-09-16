@@ -87,7 +87,7 @@ einfügen:
     web.addons.2.title=ShelleInABox
     web.addons.2.addons=custom
     web.addons.2.showtitle=false
-    web.addons.2.url=https://<IP Adresse >:4200/.  Achtung IP einsetzen
+    web.addons.2.url=https://<IP Adresse >:4200/.  Achtung IP einsetzen. / läuft auf Iphone erst nach direkter eingabe in die URL Zeile
     web.addons.2.allowupdate=false
 
 ## shellinabox
