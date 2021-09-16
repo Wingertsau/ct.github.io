@@ -72,6 +72,12 @@ add
     web.status.1.content.1.line.6='Model: <b>' + data.model + '</b>'
 
 
+Addons:
+
+    sudo nano /etc/rpimonitor/data.conf
+
+
+
 
 ## Pip installieren (lite)
 
