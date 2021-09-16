@@ -27,7 +27,7 @@ Basis software
 
     sudo apt-get install git
     
-RPI-Monitor
+# RPI-Monitor
 <https://xavierberger.github.io/RPi-Monitor-docs/11_installation.html>
 
 restart rpi-monitor
@@ -78,13 +78,22 @@ add
 
     sudo nano /etc/rpimonitor/data.conf
 
-auskommentieren
-und einkommentieren
+about auskommentieren
 
-shellinabox
+## shellinabox
 
-top3
+    web.addons.1.title=ShelleInABox
+    web.addons.1.addons=custom
+    web.addons.1.showtitle=false
+    web.addons.1.url=https://raspberrypi.local:4200/
+    web.addons.1.allowupdate=false
 
+
+    sudo apt-get install shellinabox
+
+### top3
+
+    sudo cp /usr/share/rpimonitor/web/addons/top3/top3.cron /etc/cron.d/top3
 
 
 
