@@ -81,13 +81,18 @@ add
 about auskommentieren
 
 einfügen:
-    web.addons.1.title=Top3
-    web.addons.1.addons=top3
 
-    web.addons.2.title=ShelleInABox
+
+
+    web.addons.1.name=Top3
+    web.addons.1.addons=top3
+    
+    web.addons.2.name=ShelleInABox
     web.addons.2.addons=custom
     web.addons.2.showtitle=false
-    web.addons.2.url=https://<IP Adresse >:4200/.  Achtung IP einsetzen. / läuft auf Iphone erst nach direkter eingabe in die URL Zeile
+    web.addons.2.url=https://192.168.1.69:4200/
+    web.addons.2.allowupdate=false
+    # Achtung IP einsetzen. / läuft auf Iphone erst nach direkter eingabe in die URL Zeile
     web.addons.2.allowupdate=false
 
 ## shellinabox
