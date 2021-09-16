@@ -4,11 +4,11 @@
 Image erstellen
 
 
-Datei SSH in boot directory
+### Datei SSH in boot directory
 
 Beschreibung hinzufügen 
 
-Datei mit namen "beschreibung.txt" in boot schreiben - zwecks Wiedererkennung falls Image erkannt oder SD Card in Notbook gelesen werden soll
+Datei mit namen "beschreibung<IP>.txt" in boot schreiben - zwecks Wiedererkennung falls Image erkannt oder SD Card in Notbook gelesen werden soll
 Password ändern
 
     sudo raspi-config
@@ -138,7 +138,7 @@ Userpwd anlegen
 <https://www.elektronik-kompendium.de/sites/raspberry-pi/2007071.htm>
 
 
-## rpi-clone - imagingin auf SD karte
+## rpi-clone - Image auf SD karte
 
 
     git clone https://github.com/billw2/rpi-clone.git 
@@ -157,13 +157,13 @@ Typical two partition clones - SD card or USB disk to USB disk:
 <https://github.com/billw2/rpi-clone>
 
 
-## r-backup - pi ordener sichern
+## r-backup - pi Ordner sichern
 
     nano r-backup.sh
 
 Input: 
     #!/bin/bash
-    rsync -Pav  /home/pi /mnt/backup/backup/PhotonPi-55
+    rsync -Pav  /home/pi /mnt/backup/backup/<NAME>
     
 backup pfad anpassen anpassen 
    
@@ -176,11 +176,27 @@ kopieren nach root:
 eintragung in root crontab
     sudo crontab -e
     
-eitragen
+eintragen
     0 1 * * * /root/r-backup.sh
     
+
+## NAS Laufwerke mappen
+	
+    sudo nano /etc/fstab	
+	
+    //192.168.1.5/web  /mnt/nas  cifs  username=pi,password=XXXXXXX  0  0
+    //192.168.1.5/backup /mnt/backup  cifs  username=admin,password=XXXXXX  0  0
+
+Pfade erstellen und freigeben
     
-    
+    sudo mkdir /mnt/nas
+    sudo mkdir /mnt/backup
+    sudo chmod 777 /mnt/nas
+    sudo chmod 777 /mnt/backup
+    sudo mount -a
+	
+	
+	
 ## Zero ethernet
 
 <https://tutorials-raspberrypi.de/raspberry-pi-zero-ethernet-verbindung-herstellen-enc28j60/>
