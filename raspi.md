@@ -80,14 +80,17 @@ add
 
 about auskommentieren
 
+einfügen:
+    web.addons.1.title=Top3
+    web.addons.1.addons=top3
+
+    web.addons.2.title=ShelleInABox
+    web.addons.2.addons=custom
+    web.addons.2.showtitle=false
+    web.addons.2.url=https://raspberrypi.local:4200/
+    web.addons.2.allowupdate=false
+
 ## shellinabox
-
-    web.addons.1.title=ShelleInABox
-    web.addons.1.addons=custom
-    web.addons.1.showtitle=false
-    web.addons.1.url=https://raspberrypi.local:4200/
-    web.addons.1.allowupdate=false
-
 
     sudo apt-get install shellinabox
 
