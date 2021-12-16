@@ -152,6 +152,14 @@ testen
 Typical two partition clones - SD card or USB disk to USB disk:
     
     rpi-clone sda
+	
+	
+	
+Wann wurde das letzte image gemacht?
+    lastclone.sh anlegen:
+	
+    #!/bin/bash
+    cat /var/log/rpi-clone.log 
 
 
 <https://github.com/billw2/rpi-clone>
