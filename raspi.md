@@ -155,11 +155,11 @@ Typical two partition clones - SD card or USB disk to USB disk:
 	
 	
 	
-Wann wurde das letzte image gemacht?
+Wann wurde das letzte image gemacht? ("cat" statt "tail -1" listet alle)
     lastclone.sh anlegen:
 	
     #!/bin/bash
-    cat /var/log/rpi-clone.log 
+    tail -1 /var/log/rpi-clone.log 
 
 
 <https://github.com/billw2/rpi-clone>
