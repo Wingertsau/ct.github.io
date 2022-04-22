@@ -192,8 +192,8 @@ eintragen
 	
     sudo nano /etc/fstab	
 	
-    //192.168.1.5/web  /mnt/nas  cifs  username=pi,password=XXXXXXX  0  0
-    //192.168.1.5/backup /mnt/backup  cifs  username=admin,password=XXXXXX  0  0
+    //192.168.1.5/web  /mnt/nas  cifs  username=pi,password=XXXXXXX,comment=systemd.automount  0  0
+    //192.168.1.5/backup /mnt/backup  cifs  username=admin,password=XXXXXX,comment=systemd.automount  0  0
 
 Pfade erstellen und freigeben
     
