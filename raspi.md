@@ -203,6 +203,21 @@ Pfade erstellen und freigeben
     sudo chmod 777 /mnt/backup
     sudo mount -a
 	
+# NFS Verbindung mit Synology
+	
+	
+	<https://jsx.red/synology-nas-mit-dem-raspberry-verbinden/>
+	
+Update r-backup.sh:
+	
+	sudo rsync -Pav --no-o --no-g  /home/pi /mnt/pibackup/strompi-51
+	
+fstab ändern:
+
+	192.168.1.XXX:/volume1/pi /mnt/pibackup nfs defaults,rw,users  0  0
+	
+
+	
 	
 	
 ## Zero ethernet
