@@ -74,14 +74,17 @@ add
 
 
 Edit SDcard.conf
-	sudo nano /etc/rpimonitor/template/sdcard.conf
 
- change 
- 	/boot
-  to
- 	/boot/firmware
+    sudo nano /etc/rpimonitor/template/sdcard.conf
 
-  (4 times)
+
+change 
+    /boot
+
+to
+    /boot/firmware
+
+(4 times)
 
 
 
