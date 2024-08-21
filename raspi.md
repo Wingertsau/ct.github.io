@@ -72,6 +72,21 @@ add
     web.status.1.content.1.line.6='Model: <b>' + data.model + '</b>'
 
 
+
+Edit SDcard.conf
+	sudo nano /etc/rpimonitor/template/sdcard.conf
+
+ change 
+ 	/boot
+  to
+ 	/boot/firmware
+
+  (4 times)
+
+
+
+
+
 # Addons:
 
 <https://xavierberger.github.io/RPi-Monitor-docs/25_addons.html>
