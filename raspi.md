@@ -22,7 +22,7 @@ Neu mit 5:
 
     nmtui
 
-
+auf cli ausfuehren
     
 
 System aktualisieren
