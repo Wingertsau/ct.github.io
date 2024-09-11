@@ -13,7 +13,7 @@ Password ändern
 
     sudo raspi-config
 
-Statische IP adresse
+### Statische IP adresse
 <https://www.raspberrypi.org/documentation/configuration/tcpip/>
 
     sudo nano /etc/dhcpcd.conf
@@ -25,7 +25,7 @@ Neu mit 5:
 auf cli ausfuehren
     
 
-System aktualisieren
+### System aktualisieren
 
     sudo apt-get update && sudo apt-get upgrade
 
