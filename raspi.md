@@ -17,6 +17,12 @@ Statische IP adresse
 <https://www.raspberrypi.org/documentation/configuration/tcpip/>
 
     sudo nano /etc/dhcpcd.conf
+
+Neu mit 5:
+
+   nmtui
+
+
     
 
 System aktualisieren
