@@ -19,6 +19,7 @@ Statische IP adresse
     sudo nano /etc/dhcpcd.conf
 
 Neu mit 5:
+
     nmtui
 
 
