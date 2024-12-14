@@ -40,6 +40,15 @@ Basis software
 <https://xavierberger.github.io/RPi-Monitor-docs/12_custom_installation.html>
 Fix: <https://github.com/XavierBerger/RPi-Monitor/issues/412>
 
+
+## evtl besser:
+
+   sudo apt-key del 2C0D3C0F
+   gpg --keyserver keyserver.ubuntu.com --recv-keys E4E362DE2C0D3C0F
+   gpg --export E4E362DE2C0D3C0F | sudo gpg --dearmor -o /usr/share/keyrings/rpimonitor.gpg
+   echo "deb [signed-by=/usr/share/keyrings/rpimonitor.gpg] http://giteduberger.fr rpimonitor/" | sudo tee /etc/apt/sources.list.d/rpimonitor.list > /dev/null
+
+
 restart rpi-monitor
 
     sudo  service rpimonitor restart
