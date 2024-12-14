@@ -36,6 +36,10 @@ Basis software
 # RPI-Monitor
 <https://xavierberger.github.io/RPi-Monitor-docs/11_installation.html>
 
+!! Ab Bookworm oder so manuelle installation
+
+
+
 restart rpi-monitor
 
     sudo  service rpimonitor restart
