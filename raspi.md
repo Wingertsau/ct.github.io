@@ -38,7 +38,7 @@ Basis software
 
 ## !! Ab Bookworm oder so manuelle installation:
 <https://xavierberger.github.io/RPi-Monitor-docs/12_custom_installation.html>
-
+Fix: <https://github.com/XavierBerger/RPi-Monitor/issues/412>
 
 restart rpi-monitor
 
