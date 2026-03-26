@@ -37,16 +37,29 @@ Basis software
 
 
     sudo wget http://goo.gl/vewCLL -O /etc/apt/sources.list.d/rpimonitor.list
-	sudo apt update -o APT::Key::GPGVCommand=1
+
+Key prüfen:
+	
 	sudo apt update
+	
+Key anpassen:
+
+	sudo gpg --keyserver keyserver.ubuntu.com --recv-keys DA61C26A0585BD3B && sudo gpg --export DA61C26A0585BD3B | sudo tee /etc/apt/trusted.gpg.d/rpimonitor.gpg > /dev/null
+
+
+	sudo apt update -o APT::Key::GPGVCommand=1
+
+
 	sudo apt install rpimonitor
+
+
 	sudo /etc/init.d/rpimonitor update
 	
 
 Quellen:
 <https://neilzone.co.uk/2026/01/dealing-with-apts-warning-policy-will-reject-signature-within-a-year-see-audit-for-details/>
 <https://forum-raspberrypi.de/forum/thread/65308-%C3%B6ffentlicher-schluessel-rpi-monitor/?postID=631675#post631675>
-
+<https://darkwolfcave.de/influxdata-gpg-key-problem-loesung/>
 -----------------------
 <https://xavierberger.github.io/RPi-Monitor-docs/11_installation.html>
 
