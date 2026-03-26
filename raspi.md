@@ -57,6 +57,7 @@ Key prüfen ( E4E362DE2C0D3C0F ):
 	
 
 Quellen:
+
 <https://neilzone.co.uk/2026/01/dealing-with-apts-warning-policy-will-reject-signature-within-a-year-see-audit-for-details/>
 
 <https://forum-raspberrypi.de/forum/thread/65308-%C3%B6ffentlicher-schluessel-rpi-monitor/?postID=631675#post631675>
