@@ -37,7 +37,7 @@ Basis software
 
 
     sudo wget http://goo.gl/vewCLL -O /etc/apt/sources.list.d/rpimonitor.list
-	apt update -o APT::Key::GPGVCommand=1
+	sudo apt update -o APT::Key::GPGVCommand=1
 	sudo apt update
 	sudo apt install rpimonitor
 	sudo /etc/init.d/rpimonitor update
