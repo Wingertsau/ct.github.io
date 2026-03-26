@@ -33,7 +33,7 @@ Basis software
 
     sudo apt-get install git
     
-# RPI-Monitor
+# RPI-Monitor ab trixie
 
 
     sudo wget http://goo.gl/vewCLL -O /etc/apt/sources.list.d/rpimonitor.list
@@ -58,8 +58,11 @@ Key anpassen:
 
 Quellen:
 <https://neilzone.co.uk/2026/01/dealing-with-apts-warning-policy-will-reject-signature-within-a-year-see-audit-for-details/>
+
 <https://forum-raspberrypi.de/forum/thread/65308-%C3%B6ffentlicher-schluessel-rpi-monitor/?postID=631675#post631675>
+
 <https://darkwolfcave.de/influxdata-gpg-key-problem-loesung/>
+
 -----------------------
 <https://xavierberger.github.io/RPi-Monitor-docs/11_installation.html>
 
