@@ -42,9 +42,9 @@ Key prüfen:
 	
 	sudo apt update
 	
-Key anpassen:
+Key prüfen ( E4E362DE2C0D3C0F ):
 
-	sudo gpg --keyserver keyserver.ubuntu.com --recv-keys DA61C26A0585BD3B && sudo gpg --export DA61C26A0585BD3B | sudo tee /etc/apt/trusted.gpg.d/rpimonitor.gpg > /dev/null
+	sudo gpg --keyserver keyserver.ubuntu.com --recv-keys E4E362DE2C0D3C0F && sudo gpg --export E4E362DE2C0D3C0F | sudo tee /etc/apt/trusted.gpg.d/rpimonitor.gpg > /dev/null
 
 
 	sudo apt update -o APT::Key::GPGVCommand=1
