@@ -34,6 +34,20 @@ Basis software
     sudo apt-get install git
     
 # RPI-Monitor
+
+
+    sudo wget http://goo.gl/vewCLL -O /etc/apt/sources.list.d/rpimonitor.list
+	apt update -o APT::Key::GPGVCommand=1
+	sudo apt update
+	sudo apt install rpimonitor
+	sudo /etc/init.d/rpimonitor update
+	
+
+Quellen:
+<https://neilzone.co.uk/2026/01/dealing-with-apts-warning-policy-will-reject-signature-within-a-year-see-audit-for-details/>
+<https://forum-raspberrypi.de/forum/thread/65308-%C3%B6ffentlicher-schluessel-rpi-monitor/?postID=631675#post631675>
+
+-----------------------
 <https://xavierberger.github.io/RPi-Monitor-docs/11_installation.html>
 
 ## !! Ab Bookworm oder so manuelle installation:
